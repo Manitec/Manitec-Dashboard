@@ -1,0 +1,17 @@
+site_name: Manitec Projects KB
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Infrastructure:
+    - Overview: infra/index.md
+    - Tools & Services: infra/tools.md
+  - Projects:
+    - Overview: projects/index.md
+    - Banjoshire Chat: projects/banjoshire.md
+    - Chatbot: projects/chatbot.md
+    - Mailserver: projects/mailserver.md
+    - Manitec Apps: projects/manitec-apps.md
+    - Ebbinor: projects/ebbinor.md
+    - Joe's Faves: projects/joesfaves.md
