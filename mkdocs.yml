@@ -1,6 +1,20 @@
 site_name: Manitec Projects KB
+site_url: https://manitec.github.io/Manitec-Dashboard/
+repo_url: https://github.com/Manitec/Manitec-Dashboard
+repo_name: Manitec/Manitec-Dashboard
+
 theme:
   name: material
+  palette:
+    primary: deep purple
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
 
 nav:
   - Home: index.md
