@@ -1,31 +1,34 @@
 # Joe's Faves
 
-Joe's Faves is the main Manitec web project — a curated site with an
-app ecosystem, public project listings, and monetization through Supersonic.
+**What it is:** Joe's personal hub — part portfolio, part resource collection, part services page. The central home base of the Manitec empire.
 
-## Status
-- **Status:** Active
-- **Platform:** Web
-- **Main domain:** joesfaves.com
+**Live URL:** [joesfaves.com](https://joesfaves.com)
 
-## Tools Used
-| Tool | Purpose |
-|------|---------|
-| [Vercel](../infra/tools.md) | Frontend deployment |
-| [Firebase](../infra/tools.md) | Backend & auth |
-| [DashNex](../infra/tools.md) | App & content management |
-| [Cloudflare](../infra/tools.md) | DNS & CDN |
-| [Namecheap](../infra/tools.md) | Domain registration |
-| [Supersonic](../infra/tools.md) | Ad monetization |
-| [NightCafe](../infra/tools.md) | AI art & creative assets |
+## Subdomains
 
-## Links
-| Resource | URL |
-|----------|-----|
-| Main Site | [joesfaves.com](https://joesfaves.com) |
-| Apps | [apps.joesfaves.com](https://apps.joesfaves.com) |
-| Projects | [joesfaves.com/my-projects](https://joesfaves.com/my-projects) |
+- [banjo.joesfaves.com](https://banjo.joesfaves.com) — Banjoshire
+- `apps.joesfaves.com` — TBD
 
-## Notes
-Monetized via Supersonic. Creative assets generated through NightCafe.
-App ecosystem managed through DashNex dashboard.
+## Current Content
+
+- Curated collection of useful tools and sites
+- Links to Joe's projects (ManiBot, Banjoshire, etc.)
+- Art showcase linking to Nightcafe AI artwork
+- Contact + email updates opt-in
+- Web/app development services (very limited basis)
+
+## Services Note
+
+Offering web/app dev on a **very limited basis**. Intentionally throttled until Joe has a proper operational structure — workflow, pricing, client process — without it disrupting his own projects.
+
+## Vibe
+
+"I'm learning, building, and sharing — come along for the ride."
+
+## Next Steps
+
+- [ ] Define client intake process
+- [ ] Set service pricing tiers
+- [ ] Decide service offerings (web dev, chatbots, both?)
+- [ ] Build proper services/contact page
+- [ ] Open availability once structure exists
