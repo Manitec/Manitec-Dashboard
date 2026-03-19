@@ -21,11 +21,17 @@ nav:
   - Infrastructure:
     - Overview: infra/index.md
     - Tools & Services: infra/tools.md
+    - GenX Router API: infra/genx-router.md
+    - Oracle Cloud: infra/oracle-cloud.md
+    - Dev Philosophy: infra/philosophy.md
   - Projects:
     - Overview: projects/index.md
+    - ManiBot: projects/manibot.md
     - Banjoshire Chat: projects/banjoshire.md
     - Chatbot: projects/chatbot.md
-    - Mailserver: projects/mailserver.md
+    - Joe's Faves: projects/joesfaves.md
     - Manitec Apps: projects/manitec-apps.md
     - Ebbinor: projects/ebbinor.md
-    - Joe's Faves: projects/joesfaves.md
+    - Mailserver: projects/mailserver.md
+  - Philosophy:
+    - Counterthism: philosophy/counterthism.md
