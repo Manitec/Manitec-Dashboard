@@ -6,3 +6,4 @@ Welcome to the Manitec Projects knowledge base.
 
 - [Infrastructure](infra/index.md)
 - [Projects](projects/index.md)
+- [philosophy](philosophy/ccounterthism.md)
