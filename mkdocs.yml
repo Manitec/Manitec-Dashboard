@@ -36,6 +36,8 @@ nav:
     - GenX Router API: infra/genx-router.md
     - Oracle Cloud: infra/oracle-cloud.md
     - Dev Philosophy: infra/philosophy.md
+    - DashNex System Summary: infra/dashnex-system-summary.md
+    - DashNex Page Build Checklist: infra/dashnex-page-build-checklist.md
   - Projects:
     - Overview: projects/index.md
     - ManiBot: projects/manibot.md
