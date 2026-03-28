@@ -8,8 +8,6 @@
 
 ![ManiBot](https://i.postimg.cc/q7V0g4tF/Screenshot-2026-03-28-055401.png)
 
-![ManiBot Warrior](https://i.postimg.cc/vmNyxZ7L/image_3.jpg)
-
 ## Stack
 
 - **Framework:** Next.js 15 (App Router)
