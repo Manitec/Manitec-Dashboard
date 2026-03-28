@@ -1,5 +1,7 @@
 # Infrastructure Overview
 
+![Manitec Infrastructure](https://i.postimg.cc/PrpdhTdT/dx_Ox_S0v_Jq7p_Wzb2ONT2X_0_CM_M5.jpg)
+
 Manitec Future (LLC) runs lean, mean, and sovereign. No Big Cloud lock-in — just battle-tested tools stacked for maximum tinker-control.
 
 ## The Stack
@@ -7,8 +9,9 @@ Manitec Future (LLC) runs lean, mean, and sovereign. No Big Cloud lock-in — ju
 ```
 Cloudflare (DNS/CDN)
   ├── DashNex (marketing/landings → manitec.pw, joesfaves.com)
-  ├── Render (FastAPI backends → mail.manitec.pw, chat.manitec.pw)
-  ├── GitHub Pages (this docs site → manitec.github.io)
+  ├── Render (FastAPI backends → mail.manitec.pw, hex.manitec.pw)
+  ├── Vercel (Next.js apps → chat.manitec.pw, banjo.joesfaves.com, dash.manitec.pw)
+  ├── GitHub Pages (docs → manitec.github.io)
   └── Zoho Mail360 (email API)
 ```
 
@@ -22,11 +25,13 @@ Cloudflare (DNS/CDN)
 | Apps | DashNex | [dashnex.com](https://dashnex.com) | 22 app pages |
 | Email API | Zoho Mail360 | [mail360.zoho.com](https://mail360.zoho.com) | Transactional mail |
 | DNS/CDN | Cloudflare | [cloudflare.com](https://cloudflare.com) | Speed + security |
-| Chat | HexBot | [chat.manitec.pw](https://chat.manitec.pw) | AI chat interface |
+| Chat | HexBot | [hex.manitec.pw](https://hex.manitec.pw) | AI chat interface |
+| Chat | ManiBot | [chat.manitec.pw](https://chat.manitec.pw) | Personal AI assistant |
+| Dashboard | Control Hub | [dash.manitec.pw](https://dash.manitec.pw) | Empire command center |
 
 !!! warning "Action Items"
     - Regenerate Firebase Admin SDK key (see env var CSV).
-    - Push dashnex-system-summary to DashNex page.
+    - Deploy Control Hub to Vercel → dash.manitec.pw.
     - Apply cyberpunk CSS to manitec.pw.
 
 ## Detailed Docs

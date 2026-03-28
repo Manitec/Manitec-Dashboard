@@ -4,7 +4,7 @@
 
 **Tagline:** Roleplay, sandbox, survival, or creative fun.
 
-![Ebbinor](https://i.postimg.cc/2j4Hfmmj/Screenshot-2026-03-28-055948.png)
+![Ebbinor World](https://i.postimg.cc/nc4yFgbj/a_Csfvfx7Xfb3g_OVPr_UY2_0_s0le8.jpg)
 
 **Download:** [ebbinor.joesfaves.com](https://ebbinor.joesfaves.com)
 
