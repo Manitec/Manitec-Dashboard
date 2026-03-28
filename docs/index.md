@@ -2,9 +2,9 @@
 
 Welcome to the Manitec Projects knowledge base.
 
-<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;" markdown="1">
 
-<div style="flex: 1; min-width: 200px;">
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 ## Sections
 
@@ -14,7 +14,7 @@ Welcome to the Manitec Projects knowledge base.
 
 </div>
 
-<div style="flex: 1; min-width: 260px;">
+<div style="flex: 1; min-width: 260px;" markdown="1">
 
 ## Current Task Status
 
