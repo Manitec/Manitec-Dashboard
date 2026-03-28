@@ -2,6 +2,8 @@
 
 **What it is:** Joe's personal spiritual philosophy. Despite what the word implies, it is NOT anti-God — it's closer to the opposite.
 
+![Counterthism](https://i.postimg.cc/nz9J4f0H/image_(2).jpg)
+
 !!! quote "ManiBot"
     *"The real rebellion isn't against gods — it's against the human need to turn everything into religion."*
 
