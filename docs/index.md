@@ -1,5 +1,9 @@
 # Manitec Projects KB
 
+<div style="width:100%;margin-bottom:1.5rem;border-radius:8px;overflow:hidden;border:1px solid #bf00ff;box-shadow:0 0 24px rgba(191,0,255,0.3);">
+  <img src="https://i.postimg.cc/G2wyPqzF/image_(1).jpg" alt="Manitec Future LLC" style="width:100%;display:block;" />
+</div>
+
 Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe builds, breaks, and ships.
 
 <div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;" markdown="1">
@@ -28,13 +32,15 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 | `dashnex-system-summary.md` | ✅ Pushed |
 | `docs/projects/hexbot.md` | ✅ Created (Mar 28) |
 | `docs/css/cyberpunk.css` | ✅ Pushed — neon glow live (Mar 28) |
-| HexBot added to nav | ✅ Done (Mar 28) |
+| All project screenshots | ✅ Done (Mar 28) |
+| HexBot/ManiBot URLs corrected | ✅ Done (Mar 28) |
+| Manitec Control Hub | ✅ Scaffolded + pushed (Mar 28) |
 | `joesfaves.com/my-projects` docs link | 🟡 HTML snippet ready — paste into DashNex |
 | `manitec.pw` cyberpunk full treatment | 🟡 CSS ready — apply in DashNex |
-| Project page images | 🔴 Still missing — add to my-projects cards |
 | Firebase Admin SDK key | 🔴 Needs regen — update env vars |
 | Play Store publish status | 🔴 Verify catgenai / manibot live |
-| HexBot backend | 🟢 Repo exists — build out FastAPI |
+| Control Hub — deploy to Vercel | 🔴 Import repo + add dash.manitec.pw |
+| Control Hub — Phase 2 (Vercel API) | 🟢 Ready to build |
 
 </div>
 
@@ -43,4 +49,4 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 ---
 
 !!! tip "Last Updated"
-    March 28, 2026 — Session: docs push, HexBot page, cyberpunk CSS, infra + philosophy overhaul.
+    March 28, 2026 — Session: all screenshots live, Control Hub scaffolded, brand image added.
