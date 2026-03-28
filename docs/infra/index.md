@@ -1,6 +1,6 @@
 # Infrastructure Overview
 
-![Manitec Infrastructure](https://i.postimg.cc/PrpdhTdT/dx_Ox_S0v_Jq7p_Wzb2ONT2X_0_CM_M5.jpg)
+![Manitec Infrastructure](https://i.postimg.cc/Y9LH6BbL/image_2.jpg)
 
 Manitec Future (LLC) runs lean, mean, and sovereign. No Big Cloud lock-in — just battle-tested tools stacked for maximum tinker-control.
 
