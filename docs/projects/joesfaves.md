@@ -4,9 +4,12 @@
 
 **Live URL:** [joesfaves.com](https://joesfaves.com)
 
+![Joe's Faves](https://file-hosting.dashnexpages.net/mycryptostuff.editor1678824987-731.jpg)
+
 ## Subdomains
 
 - [banjo.joesfaves.com](https://banjo.joesfaves.com) — Banjoshire
+- [ebbinor.joesfaves.com](https://ebbinor.joesfaves.com) — Ebbinor download
 - `apps.joesfaves.com` — TBD
 
 ## Current Content
@@ -23,12 +26,17 @@ Offering web/app dev on a **very limited basis**. Intentionally throttled until 
 
 ## Vibe
 
-"I'm learning, building, and sharing — come along for the ride."
+> "I'm learning, building, and sharing — come along for the ride."
 
 ## Next Steps
 
+- [ ] Add **View Docs →** button linking to [manitec.github.io/Manitec-Dashboard](https://manitec.github.io/Manitec-Dashboard/) *(paste HTML snippet in DashNex)*
 - [ ] Define client intake process
 - [ ] Set service pricing tiers
 - [ ] Decide service offerings (web dev, chatbots, both?)
 - [ ] Build proper services/contact page
+- [ ] Add real homepage screenshot via postimg.cc
 - [ ] Open availability once structure exists
+
+!!! tip "Screenshot Needed"
+    Drop a screenshot of joesfaves.com on [postimg.cc](https://postimg.cc/files) and I'll swap this art out for the real thing 📸

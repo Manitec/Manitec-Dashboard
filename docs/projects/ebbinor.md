@@ -4,6 +4,8 @@
 
 **Tagline:** Roleplay, sandbox, survival, or creative fun.
 
+![Ebbinor World](https://file-hosting.dashnexpages.net/mycryptostuff.editor1665521950-5738.png)
+
 **Download:** [ebbinor.joesfaves.com](https://ebbinor.joesfaves.com)
 
 ## Stack
@@ -47,3 +49,6 @@ The primary goal is a persistent always-on dedicated server for Ebbinor so playe
 - Site: [ebbinor.joesfaves.com](https://ebbinor.joesfaves.com)
 - GitHub: [Manitec/Ebbinor](https://github.com/Manitec/Ebbinor)
 - Engine: [luanti.org](https://www.luanti.org)
+
+!!! tip "Screenshot Needed"
+    Drop a real in-game screenshot on [postimg.cc](https://postimg.cc/files) and I'll swap this placeholder out 👌
