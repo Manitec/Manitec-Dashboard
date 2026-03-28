@@ -2,7 +2,7 @@
 
 The Manitec empire in project form. Each one built with purpose — some finished, some cooking, all pushing forward.
 
-![Manitec Art](https://file-hosting.dashnexpages.net/mycryptostuff.editor1678824987-731.jpg)
+![Manitec Art](https://i.postimg.cc/15Gkm2hm/sy_Gsy_XM1f_HDa_Or_L10zg_A_0_O5Ia6.jpg)
 
 ## Project List
 
