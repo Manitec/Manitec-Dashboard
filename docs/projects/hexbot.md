@@ -3,7 +3,7 @@
 !!! info "Status: 🟢 Active Development"
     Chat interface live at [hex.manitec.pw](https://hex.manitec.pw).
 
-![HexBot](https://i.postimg.cc/15Gkm2hm/sy_Gsy_XM1f_HDa_Or_L10zg_A_0_O5Ia6.jpg)
+![HexBot Warrior](https://i.postimg.cc/vmNyxZ7L/image_3.jpg)
 
 ## Overview
 HexBot is Manitec's private AI-powered chat assistant — the empire's own conversational weapon. Built to be customized, self-hosted, and eventually monetized as a service offering.
