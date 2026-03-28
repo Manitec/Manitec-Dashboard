@@ -6,6 +6,8 @@
 
 **Blog Post:** [manitec.pw/blog/manibot](https://manitec.pw/blog/manibot)
 
+![ManiBot](https://i.postimg.cc/q7V0g4tF/Screenshot-2026-03-28-055401.png)
+
 ## Stack
 
 - **Framework:** Next.js 15 (App Router)
@@ -40,6 +42,3 @@
 - Next.js 15 — `params` is now a Promise, must `await` it
 - AI SDK v5 — dropped `content` field, now uses `parts[]` array
 - Git merge conflicts across 6 files simultaneously is a special kind of hell
-
-!!! tip "Screenshot Needed"
-    Drop a screenshot of [chat.manitec.pw](https://chat.manitec.pw) on [postimg.cc](https://postimg.cc/files) and I'll wire it in 📸
