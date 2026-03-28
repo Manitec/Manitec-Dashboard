@@ -4,7 +4,7 @@
 
 **Live URL:** [joesfaves.com](https://joesfaves.com)
 
-![Joe's Faves](https://file-hosting.dashnexpages.net/mycryptostuff.editor1678824987-731.jpg)
+![Joe's Faves Homepage](https://i.postimg.cc/zX6JhnbK/image.jpg)
 
 ## Subdomains
 
@@ -35,8 +35,4 @@ Offering web/app dev on a **very limited basis**. Intentionally throttled until 
 - [ ] Set service pricing tiers
 - [ ] Decide service offerings (web dev, chatbots, both?)
 - [ ] Build proper services/contact page
-- [ ] Add real homepage screenshot via postimg.cc
 - [ ] Open availability once structure exists
-
-!!! tip "Screenshot Needed"
-    Drop a screenshot of joesfaves.com on [postimg.cc](https://postimg.cc/files) and I'll swap this art out for the real thing 📸
