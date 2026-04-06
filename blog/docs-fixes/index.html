@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://info.manitec.pw/projects/mailserver/">
+        <link rel="canonical" href="https://info.manitec.pw/blog/docs-fixes/">
       
       
-        <link rel="prev" href="../ebbinor/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../tasks/">
+        <link rel="next" href="../../infra/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Mailserver - Manitec Projects KB</title>
+        <title>Docs Site 6 Bugs Fixed - Manitec Projects KB</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mailserver" class="md-skip">
+        <a href="#how-i-accidentally-broke-my-docs-site-6-ways-and-fixed-them-all-in-one-afternoon" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Mailserver
+              Docs Site 6 Bugs Fixed
             
           </span>
         </div>
@@ -228,11 +228,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../blog/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -268,13 +270,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../projects/" class="md-tabs__link">
           
   
   
@@ -382,26 +382,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -419,7 +424,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -437,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -462,10 +467,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../blog/docs-fixes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docs Site 6 Bugs Fixed
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -481,6 +513,103 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bug-1-task-snippets-were-silently-empty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bug #1: Task Snippets Were Silently Empty
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-2-ci-would-nuke-itself-if-the-tasks-repo-didnt-exist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bug #2: CI Would Nuke Itself if the Tasks Repo Didn’t Exist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-3-the-theme-was-fighting-my-own-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bug #3: The Theme Was Fighting My Own CSS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-4-neon-glows-rendering-against-the-wrong-background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bug #4: Neon Glows Rendering Against the Wrong Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-5-custom-domain-reverting-to-githubio-on-every-deploy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bug #5: Custom Domain Reverting to github.io on Every Deploy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-6-stale-urls-and-a-dead-nav-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bug #6: Stale URLs and a Dead Nav Link
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-lesson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Lesson
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -752,31 +881,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -794,7 +918,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -812,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../projects/" class="md-nav__link">
         
   
   
@@ -840,7 +964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../manibot/" class="md-nav__link">
+      <a href="../../projects/manibot/" class="md-nav__link">
         
   
   
@@ -868,7 +992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hexbot/" class="md-nav__link">
+      <a href="../../projects/hexbot/" class="md-nav__link">
         
   
   
@@ -896,7 +1020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../banjoshire/" class="md-nav__link">
+      <a href="../../projects/banjoshire/" class="md-nav__link">
         
   
   
@@ -924,7 +1048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../joesfaves/" class="md-nav__link">
+      <a href="../../projects/joesfaves/" class="md-nav__link">
         
   
   
@@ -952,7 +1076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../manitec-apps/" class="md-nav__link">
+      <a href="../../projects/manitec-apps/" class="md-nav__link">
         
   
   
@@ -980,7 +1104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ebbinor/" class="md-nav__link">
+      <a href="../../projects/ebbinor/" class="md-nav__link">
         
   
   
@@ -1005,37 +1129,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Mailserver
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../projects/mailserver/" class="md-nav__link">
         
   
   
@@ -1051,98 +1148,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#status" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Status
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools-used" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tools Used
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tasks
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tasks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#open-tasks-for-mailserver" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Open tasks for mailserver
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1155,7 +1160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tasks/" class="md-nav__link">
+      <a href="../../projects/tasks/" class="md-nav__link">
         
   
   
@@ -1325,10 +1330,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#status" class="md-nav__link">
+  <a href="#bug-1-task-snippets-were-silently-empty" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Status
+        Bug #1: Task Snippets Were Silently Empty
       
     </span>
   </a>
@@ -1336,10 +1341,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-used" class="md-nav__link">
+  <a href="#bug-2-ci-would-nuke-itself-if-the-tasks-repo-didnt-exist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tools Used
+        Bug #2: CI Would Nuke Itself if the Tasks Repo Didn’t Exist
       
     </span>
   </a>
@@ -1347,10 +1352,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
+  <a href="#bug-3-the-theme-was-fighting-my-own-css" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Links
+        Bug #3: The Theme Was Fighting My Own CSS
       
     </span>
   </a>
@@ -1358,38 +1363,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
+  <a href="#bug-4-neon-glows-rendering-against-the-wrong-background" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tasks
+        Bug #4: Neon Glows Rendering Against the Wrong Background
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Tasks">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#open-tasks-for-mailserver" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Open tasks for mailserver
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#bug-5-custom-domain-reverting-to-githubio-on-every-deploy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        Bug #5: Custom Domain Reverting to github.io on Every Deploy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bug-6-stale-urls-and-a-dead-nav-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bug #6: Stale URLs and a Dead Nav Link
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-lesson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Lesson
       
     </span>
   </a>
@@ -1416,53 +1426,112 @@
   
 
 
-<h1 id="mailserver">Mailserver<a class="headerlink" href="#mailserver" title="Permanent link">&para;</a></h1>
-<p>A custom Zoho Mail360 client built in Python.</p>
-<h2 id="status">Status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h2>
+<h1 id="how-i-accidentally-broke-my-docs-site-6-ways-and-fixed-them-all-in-one-afternoon">How I Accidentally Broke My Docs Site 6 Ways and Fixed Them All in One Afternoon<a class="headerlink" href="#how-i-accidentally-broke-my-docs-site-6-ways-and-fixed-them-all-in-one-afternoon" title="Permanent link">&para;</a></h1>
+<p><em>April 6, 2026 · Joe · Dev Log + Tutorial · ~8 min read</em></p>
+<blockquote>
+<p>Also published at <a href="https://manitec.pw/blog/docs-fixes">manitec.pw/blog/docs-fixes</a></p>
+</blockquote>
+<hr />
+<p>There’s a certain kind of programmer satisfaction that comes not from building something shiny, but from systematically destroying and then resurrecting your own infrastructure in a single sitting. Today was that day.</p>
+<p>My docs site — <a href="https://info.manitec.pw">info.manitec.pw</a> — is built with MkDocs Material and deployed to GitHub Pages via a CI workflow. It’s been “working” for weeks. Except it wasn’t really working. It was <em>appearing</em> to work while quietly accumulating problems like a storage unit nobody opens.</p>
+<p>Here’s every bug, why it happened, and how I killed it.</p>
+<hr />
+<h2 id="bug-1-task-snippets-were-silently-empty">Bug #1: Task Snippets Were Silently Empty<a class="headerlink" href="#bug-1-task-snippets-were-silently-empty" title="Permanent link">&para;</a></h2>
+<p>I built a system where each project page auto-pulls open GitHub Issues from a private tasks repo and renders them as a live task list using <code>pymdownx.snippets</code>. The Python script ran in CI, wrote the markdown files, everything looked fine.</p>
+<p>Except the pages were blank. No errors — just empty sections where tasks should be.</p>
+<p><strong>Why:</strong> <code>pymdownx.snippets</code> resolves <code>--8&lt;--</code> include paths relative to the <code>docs/</code> directory by default. My generated files lived at <code>meta/tasks/</code> — the repo root — which snippets had no idea about.</p>
+<p><strong>Fix:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># mkdocs.yml</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pymdownx.snippets</span><span class="p">:</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">base_path</span><span class="p">:</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">.</span><span class="w">       </span><span class="c1"># repo root</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">docs</span><span class="w">    </span><span class="c1"># docs directory</span>
+</code></pre></div></p>
+<p>Two lines. Thirty minutes of confusion. Classic.</p>
+<hr />
+<h2 id="bug-2-ci-would-nuke-itself-if-the-tasks-repo-didnt-exist">Bug #2: CI Would Nuke Itself if the Tasks Repo Didn’t Exist<a class="headerlink" href="#bug-2-ci-would-nuke-itself-if-the-tasks-repo-didnt-exist" title="Permanent link">&para;</a></h2>
+<p>The task-generation script called the GitHub API for a private repo (<code>Manitec-Tasks</code>). If that repo didn’t exist — or the token lacked the right permissions — the script threw an unhandled exception and crashed the entire deploy pipeline.</p>
+<p>Two problems hiding in one:</p>
+<p><strong>Problem A:</strong> The workflow only had <code>contents: write</code> permission. The Issues API needs <code>issues: read</code>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># .github/workflows/deploy.yml</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nt">permissions</span><span class="p">:</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="nt">contents</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">write</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="nt">issues</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">read</span><span class="w">   </span><span class="c1"># ← this was missing</span>
+</code></pre></div>
+<p><strong>Problem B:</strong> No graceful fallback. A 404 or 403 from the API was a hard crash instead of writing an empty snippet.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">if</span> <span class="n">resp</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">404</span><span class="p">:</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;INFO: repo not found for &#39;</span><span class="si">{</span><span class="n">slug</span><span class="si">}</span><span class="s2">&#39; — writing empty snippet.&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="k">return</span> <span class="p">[]</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">if</span> <span class="n">resp</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">403</span><span class="p">:</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;INFO: 403 for &#39;</span><span class="si">{</span><span class="n">slug</span><span class="si">}</span><span class="s2">&#39; — writing empty snippet.&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="k">return</span> <span class="p">[]</span>
+</code></pre></div>
+<p>Now if the tasks repo isn’t ready, the build keeps going and renders “No open tasks” instead of dying.</p>
+<hr />
+<h2 id="bug-3-the-theme-was-fighting-my-own-css">Bug #3: The Theme Was Fighting My Own CSS<a class="headerlink" href="#bug-3-the-theme-was-fighting-my-own-css" title="Permanent link">&para;</a></h2>
+<p><code>mkdocs.yml</code> had <code>primary: deep purple</code> and <code>accent: indigo</code> from Material’s built-in palette. My custom <code>cyberpunk.css</code> was simultaneously trying to override everything with neon cyan, purple, and pink. Two systems wrestling in the cascade and neither was fully winning.</p>
+<p>Fix: give up on Material’s palette colors entirely and let the CSS own the aesthetics.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">theme</span><span class="p">:</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="nt">palette</span><span class="p">:</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">scheme</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slate</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">      </span><span class="nt">primary</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">black</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">      </span><span class="nt">accent</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cyan</span>
+</code></pre></div>
+<p>Neutral base. Custom CSS takes it from there. No more cascade wars.</p>
+<hr />
+<h2 id="bug-4-neon-glows-rendering-against-the-wrong-background">Bug #4: Neon Glows Rendering Against the Wrong Background<a class="headerlink" href="#bug-4-neon-glows-rendering-against-the-wrong-background" title="Permanent link">&para;</a></h2>
+<p>The cyberpunk neon effects looked great in my head. In the browser they looked washed-out because the page background was Material’s default dark slate instead of the true near-black (<code>#0a0a0f</code>) I wanted.</p>
+<p>The <code>--dark-bg</code> CSS variable was defined but never applied to the actual page surfaces. Defining a variable and <em>using</em> it are two different things.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">.</span><span class="nc">md-main</span><span class="o">,</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="p">.</span><span class="nc">md-header</span><span class="o">,</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="p">.</span><span class="nc">md-tabs</span><span class="o">,</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">.</span><span class="nc">md-sidebar</span><span class="o">,</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="o">[</span><span class="nt">data-md-color-scheme</span><span class="o">=</span><span class="s2">&quot;slate&quot;</span><span class="o">]</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">  </span><span class="nv">--md-default-bg-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#0a0a0f</span><span class="p">;</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#0a0a0f</span><span class="p">;</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="p">}</span>
+</code></pre></div>
+<p>The neon glows properly now.</p>
+<hr />
+<h2 id="bug-5-custom-domain-reverting-to-githubio-on-every-deploy">Bug #5: Custom Domain Reverting to github.io on Every Deploy<a class="headerlink" href="#bug-5-custom-domain-reverting-to-githubio-on-every-deploy" title="Permanent link">&para;</a></h2>
+<p>This one bites a lot of MkDocs users. I had <code>info.manitec.pw</code> set as a custom domain in GitHub Pages settings. After every deploy it reverted back to <code>manitec.github.io/Manitec-Dashboard/</code>.</p>
+<p><strong>Why:</strong> <code>mkdocs gh-deploy</code> rebuilds the <code>gh-pages</code> branch from scratch on every run. GitHub Pages reads the custom domain from a <code>CNAME</code> file in the branch root. If that file isn’t in your source <code>docs/</code> folder, it gets wiped on every deploy.</p>
+<p><strong>Fix — two parts:</strong></p>
+<ol>
+<li>
+<p>Create <code>docs/CNAME</code> containing just your domain:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>info.manitec.pw
+</code></pre></div>
+MkDocs copies everything in <code>docs/</code> into the built site, so this file survives every deploy forever.</p>
+</li>
+<li>
+<p>Update <code>site_url</code> in <code>mkdocs.yml</code>:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nt">site_url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://info.manitec.pw/</span>
+</code></pre></div></p>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Cloudflare DNS</p>
+<p>Point <code>info</code> → <code>manitec.github.io</code> as a CNAME with the proxy <strong>off</strong> (grey cloud).
+GitHub Pages handles HTTPS itself — proxying through Cloudflare at the same time causes certificate conflicts.</p>
+</div>
+<hr />
+<h2 id="bug-6-stale-urls-and-a-dead-nav-link">Bug #6: Stale URLs and a Dead Nav Link<a class="headerlink" href="#bug-6-stale-urls-and-a-dead-nav-link" title="Permanent link">&para;</a></h2>
+<p>A full docs audit turned up three quiet wrongnesses:</p>
 <ul>
-<li><strong>Status:</strong> Active</li>
-<li><strong>Language:</strong> Python</li>
-<li><strong>Deployment:</strong> Render</li>
+<li><strong>HexBot</strong> listed with <code>chat.manitec.pw</code> — that’s ManiBot’s URL. HexBot lives at <code>hex.manitec.pw</code>.</li>
+<li><strong>ManiBot</strong> listed with stack “Python” — it’s Next.js 15, Vercel AI SDK, Groq, and Neon.</li>
+<li>A <strong>Chatbot</strong> row in the projects table linked to <code>projects/chatbot.md</code> — a file that doesn’t exist. Silent 404.</li>
 </ul>
-<h2 id="tools-used">Tools Used<a class="headerlink" href="#tools-used" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../../infra/tools/">Render</a></td>
-<td>Hosts FastAPI backend</td>
-</tr>
-<tr>
-<td><a href="../../infra/tools/">Mail360</a></td>
-<td>Zoho email API</td>
-</tr>
-<tr>
-<td><a href="../../infra/tools/">mail.manitec.pw</a></td>
-<td>Custom webmail frontend</td>
-</tr>
-<tr>
-<td><a href="../../infra/tools/">Cloudflare</a></td>
-<td>DNS &amp; CDN</td>
-</tr>
-</tbody>
-</table>
-<h2 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h2>
-<ul>
-<li>GitHub: <a href="https://github.com/Manitec/mailserver">Manitec/mailserver</a></li>
-</ul>
-<h2 id="tasks">Tasks<a class="headerlink" href="#tasks" title="Permanent link">&para;</a></h2>
-<!-- AUTO-GENERATED FILE: do not edit by hand.
-     Generated by meta/generate_task_fragments.py -->
-
-<h3 id="open-tasks-for-mailserver">Open tasks for <code>mailserver</code><a class="headerlink" href="#open-tasks-for-mailserver" title="Permanent link">&para;</a></h3>
-<p><em>No open tasks linked to this project.</em></p>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Created March 2026. Powers the custom webmail at mail.manitec.pw.</p>
+<p>None of these broke the build. They just made the docs quietly wrong, which is somehow worse.</p>
+<hr />
+<h2 id="the-lesson">The Lesson<a class="headerlink" href="#the-lesson" title="Permanent link">&para;</a></h2>
+<p>Docs sites feel low-stakes until they’re the thing you hand someone when they ask “where can I learn about your projects?” These fixes took one afternoon but the bugs had been silently accumulating for weeks. An occasional audit — even just reading your own docs top-to-bottom — catches a surprising amount.</p>
+<p>The full Manitec empire docs live at <strong><a href="https://info.manitec.pw">info.manitec.pw</a></strong> — now actually working as intended.</p>
+<hr />
+<p><em>Built in East Tennessee. Broken and fixed in the same afternoon. 🤖</em></p>
+<hr />
+<p><a href="../">Back to Blog</a> | <a href="../../">Home</a></p>
 
 
 
@@ -1483,7 +1552,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 6, 2026 07:03:08 UTC">April 6, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 6, 2026 20:09:33 UTC">April 6, 2026</span>
   </span>
 
     
