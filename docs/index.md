@@ -24,23 +24,24 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 
 | Task | Status |
 |---|---|
-| `/my-projects/` page | ✅ Done — needs images |
+| `/my-projects/` page | ✅ Done — minor image tweaks may remain |
 | Counterthism docs | ✅ Pushed |
-| `mkdocs.yml` extensions | ✅ Done — mermaid + tabbed added |
-| `docs/philosophy/index.md` | ✅ Fully fleshed out (Mar 28) |
-| `docs/infra/index.md` | ✅ Upgraded — HexBot + action items (Mar 28) |
+| `mkdocs.yml` extensions | ✅ Done — snippets, git-date, palette fixed (Apr 6) |
+| `docs/philosophy/index.md` | ✅ Fully fleshed out |
+| `docs/infra/index.md` | ✅ Upgraded |
 | `dashnex-system-summary.md` | ✅ Pushed |
-| `docs/projects/hexbot.md` | ✅ Created (Mar 28) |
-| `docs/css/cyberpunk.css` | ✅ Pushed — neon glow live (Mar 28) |
-| All project screenshots | ✅ Done (Mar 28) |
-| HexBot/ManiBot URLs corrected | ✅ Done (Mar 28) |
-| Manitec Control Hub | ✅ Scaffolded + pushed (Mar 28) |
-| `joesfaves.com/my-projects` docs link | 🟡 HTML snippet ready — paste into DashNex |
-| `manitec.pw` cyberpunk full treatment | 🟡 CSS ready — apply in DashNex |
-| Firebase Admin SDK key | 🔴 Needs regen — update env vars |
-| Play Store publish status | 🔴 Verify catgenai / manibot live |
-| Control Hub — deploy to Vercel | 🔴 Import repo + add dash.manitec.pw |
+| `docs/projects/hexbot.md` | ✅ Created |
+| `docs/css/cyberpunk.css` | ✅ Live — dark bg + neon glow improved (Apr 6) |
+| All project screenshots | 🟡 Needs proper screenshots across docs |
+| HexBot/ManiBot URLs | 🟡 Audit needed — some doc pages may have stale URLs |
+| `joesfaves.com/my-projects` docs link | 🟡 Status unclear — verify in DashNex |
+| Manitec Control Hub | ✅ Scaffolded, pushed, deployed to Vercel |
+| Control Hub — Phase 4 | ✅ Done |
 | Control Hub — Phase 2 (Vercel API) | 🟢 Ready to build |
+| `manitec.pw` cyberpunk full treatment | ✅ Applied |
+| Firebase Admin SDK key | 🔴 Needs regen — update env vars |
+| Play Store publish status | ⏸️ Not currently needed |
+| Docs site image tweaks | 🟡 Site-wide image audit pending |
 
 </div>
 
@@ -49,4 +50,4 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 ---
 
 !!! tip "Last Updated"
-    March 28, 2026 — Session: all screenshots live, Control Hub scaffolded, brand image added.
+    April 6, 2026 — Session: Control Hub deployed, cyberpunk CSS improved, mkdocs fixes batch-committed, task status audited.
