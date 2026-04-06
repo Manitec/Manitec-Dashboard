@@ -1,0 +1,59 @@
+/* Manitec Cyberpunk Theme — Empire Glow */
+
+:root {
+  --neon-cyan: #00ffff;
+  --neon-purple: #bf00ff;
+  --neon-pink: #ff00aa;
+  --dark-bg: #0a0a0f;
+}
+
+/* Subtle neon accent on headers */
+.md-typeset h1 {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 8px var(--neon-cyan), 0 0 20px rgba(0,255,255,0.3);
+  letter-spacing: 2px;
+}
+
+.md-typeset h2 {
+  color: var(--neon-purple);
+  border-bottom: 1px solid var(--neon-purple);
+}
+
+.md-typeset h3 {
+  color: var(--neon-pink);
+}
+
+/* Neon glow on links */
+.md-typeset a {
+  color: var(--neon-cyan) !important;
+  text-decoration: none;
+  transition: text-shadow 0.2s;
+}
+
+.md-typeset a:hover {
+  text-shadow: 0 0 8px var(--neon-cyan);
+}
+
+/* Code blocks — terminal feel */
+.md-typeset pre code {
+  background: #0d0d1a;
+  border-left: 3px solid var(--neon-purple);
+}
+
+/* Admonition neon borders */
+.md-typeset .admonition {
+  border-left: 4px solid var(--neon-pink);
+  background: rgba(255,0,170,0.05);
+}
+
+/* Table header glow */
+.md-typeset table thead th {
+  background: rgba(0,255,255,0.08);
+  color: var(--neon-cyan);
+}
+
+/* Nav active item */
+.md-nav__link--active {
+  color: var(--neon-pink) !important;
+  font-weight: bold;
+}
