@@ -9,13 +9,12 @@ The Manitec empire in project form. Each one built with purpose — some finishe
 | Project | Stack | Status | Link |
 |---------|-------|--------|------|
 | [Banjoshire Chat](banjoshire.md) | TypeScript, Next.js, Firebase | 🟡 Core done, on break | [banjo.joesfaves.com](https://banjo.joesfaves.com) |
-| [HexBot](hexbot.md) | FastAPI, Python | 🟢 Active dev | [chat.manitec.pw](https://chat.manitec.pw) |
-| [Chatbot](chatbot.md) | TypeScript | 🟡 In progress | — |
+| [HexBot](hexbot.md) | FastAPI, Python | 🟢 Active dev | [hex.manitec.pw](https://hex.manitec.pw) |
+| [ManiBot](manibot.md) | Next.js 15, Vercel, Groq, Neon | 🟢 Live | [chat.manitec.pw](https://chat.manitec.pw) |
 | [Mailserver](mailserver.md) | Python, Zoho Mail360 | 🟡 Built | [mail.manitec.pw](https://mail.manitec.pw) |
 | [Manitec Apps](manitec-apps.md) | Python | 🟢 Updated Mar 26 | — |
 | [Ebbinor](ebbinor.md) | Luanti/Minetest, C | 🔵 Maintenance | [ebbinor.joesfaves.com](https://ebbinor.joesfaves.com) |
 | [Joe's Faves](joesfaves.md) | Bootstrap, DashNex, Froala | 🟢 Live | [joesfaves.com](https://joesfaves.com) |
-| [ManiBot](manibot.md) | Python | 🔴 Private/verify | Play Store |
 
 ## Related Pages
 
