@@ -6,8 +6,12 @@ repo_name: Manitec/Manitec-Dashboard
 theme:
   name: material
   palette:
-    primary: deep purple
-    accent: indigo
+    - scheme: slate
+      primary: black
+      accent: cyan
+  font:
+    text: Rajdhani
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.sections
@@ -18,6 +22,11 @@ theme:
 
 extra_css:
   - css/cyberpunk.css
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
 
 markdown_extensions:
   - admonition
@@ -30,7 +39,10 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path:
+        - .
+        - docs
   - pymdownx.tabbed:
       alternate_style: true
   - tables

@@ -7,6 +7,20 @@
   --dark-bg: #0a0a0f;
 }
 
+/* Force true-dark body + surfaces */
+.md-main,
+.md-header,
+.md-tabs,
+.md-sidebar,
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0a0a0f;
+  background-color: #0a0a0f;
+}
+
+.md-content__inner {
+  background-color: #0a0a0f;
+}
+
 /* Subtle neon accent on headers */
 .md-typeset h1 {
   color: var(--neon-cyan);

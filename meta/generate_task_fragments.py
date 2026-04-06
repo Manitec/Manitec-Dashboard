@@ -42,8 +42,8 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def github_headers() -> Dict[str, str]:
     if not TOKEN:
-        print("ERROR: GITHUB_TOKEN not set; cannot call GitHub API.", file=sys.stderr)
-        sys.exit(1)
+        print("WARNING: GITHUB_TOKEN not set; writing empty snippets.", file=sys.stderr)
+        return {}
     return {
         "Authorization": f"Bearer {TOKEN}",
         "Accept": "application/vnd.github+json",
@@ -53,6 +53,8 @@ def github_headers() -> Dict[str, str]:
 
 def fetch_issues_for_project(slug: str) -> List[Dict[str, Any]]:
     """Fetch open issues with label `project:<slug>` for this repo."""
+    if not TOKEN:
+        return []
     url = f"{GITHUB_API}/repos/{OWNER}/{TASKS_REPO}/issues"
     params = {
         "state": "open",
@@ -60,6 +62,12 @@ def fetch_issues_for_project(slug: str) -> List[Dict[str, Any]]:
         "per_page": 100,
     }
     resp = requests.get(url, headers=github_headers(), params=params, timeout=10)
+    if resp.status_code == 404:
+        print(f"INFO: {TASKS_REPO} not found or no access for '{slug}' — writing empty snippet.", file=sys.stderr)
+        return []
+    if resp.status_code == 403:
+        print(f"INFO: 403 Forbidden for '{slug}' — token may lack issues:read — writing empty snippet.", file=sys.stderr)
+        return []
     if resp.status_code != 200:
         raise RuntimeError(
             f"GitHub API error {resp.status_code} for project '{slug}': {resp.text}"
@@ -81,7 +89,7 @@ def make_snippet(slug: str, issues: List[Dict[str, Any]]) -> str:
         number = issue.get("number")
         title = issue.get("title", "Untitled").strip()
         url = issue.get("html_url")
-        lines.append(f"- [#{number} – {title}]({url})")
+        lines.append(f"- [#{number} \u2013 {title}]({url})")
 
     lines.append("")  # trailing newline
     return "\n".join(lines)
@@ -111,7 +119,8 @@ def main() -> None:
             write_snippet(slug, snippet)
         except Exception as e:
             print(f"Error generating tasks for '{slug}': {e}", file=sys.stderr)
-            # keep going for other projects
+            # Write empty snippet so build doesn't fail on missing include
+            write_snippet(slug, make_snippet(slug, []))
 
 
 if __name__ == "__main__":

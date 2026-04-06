@@ -32,3 +32,15 @@ A live view of open tasks for each project, pulled from the private Manitec-Task
 ## Joe's Faves
 
 --8<-- "meta/tasks/tasks-joesfaves.md"
+
+## Ebbinor
+
+--8<-- "meta/tasks/tasks-ebbinor.md"
+
+## Manitec Dashboard
+
+--8<-- "meta/tasks/tasks-manitec-dashboard.md"
+
+## Manitec Site
+
+--8<-- "meta/tasks/tasks-manitec-site.md"
