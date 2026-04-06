@@ -53,6 +53,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Blog:
+    - Overview: blog/index.md
+    - Docs Site 6 Bugs Fixed: blog/docs-fixes.md
   - Infrastructure:
     - Overview: infra/index.md
     - Tools & Services: infra/tools.md
