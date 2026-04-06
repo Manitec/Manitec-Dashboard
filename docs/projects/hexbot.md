@@ -23,6 +23,10 @@ HexBot is Manitec's private AI-powered chat assistant — the empire's own conve
 - [ ] Offer as white-label chatbot service (revenue stream 💰)
 - [ ] Connect to ManiBot / Play Store app ecosystem
 
+## Tasks
+
+--8<-- "meta/tasks/tasks-hexbot.md"
+
 ## Notes
 > This is the brains of the empire. Treat it like the precious little gremlin it is. 🤖
 

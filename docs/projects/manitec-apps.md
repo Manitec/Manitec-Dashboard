@@ -16,5 +16,9 @@ A personal app store built in Python.
 ## Links
 - GitHub: [Manitec/Manitec-Apps](https://github.com/Manitec/Manitec-Apps)
 
+## Tasks
+
+--8<-- "meta/tasks/tasks-manitec-apps.md"
+
 ## Notes
 Houses your collection of 22+ apps managed through DashNex.

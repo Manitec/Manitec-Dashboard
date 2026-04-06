@@ -18,5 +18,9 @@ A custom Zoho Mail360 client built in Python.
 ## Links
 - GitHub: [Manitec/mailserver](https://github.com/Manitec/mailserver)
 
+## Tasks
+
+--8<-- "meta/tasks/tasks-mailserver.md"
+
 ## Notes
 Created March 2026. Powers the custom webmail at mail.manitec.pw.

@@ -18,5 +18,9 @@ An AI assistant project built with TypeScript.
 - GitHub: [Manitec/chatbot](https://github.com/Manitec/chatbot) *(private)*
 - Vercel project: `chatbot`
 
+## Tasks
+
+--8<-- "meta/tasks/tasks-chatbot.md"
+
 ## Notes
 Private repo. Add model details, use cases, and integrations here.

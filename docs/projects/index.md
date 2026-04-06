@@ -19,6 +19,7 @@ The Manitec empire in project form. Each one built with purpose — some finishe
 
 ## Related Pages
 
+- [Tasks](tasks.md)
 - [Infrastructure](../infra/index.md)
 - [Tools & Services](../infra/tools.md)
 

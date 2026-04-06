@@ -24,6 +24,10 @@
 
 Offering web/app dev on a **very limited basis**. Intentionally throttled until Joe has a proper operational structure — workflow, pricing, client process — without it disrupting his own projects.
 
+## Tasks
+
+--8<-- "meta/tasks/tasks-joesfaves.md"
+
 ## Vibe
 
 > "I'm learning, building, and sharing — come along for the ride."

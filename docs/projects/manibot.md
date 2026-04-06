@@ -37,6 +37,10 @@
 - [ ] Build a private Joe-only version with deeper personality
 - [ ] Explore GenX Router as Groq replacement for multi-model access
 
+## Tasks
+
+--8<-- "meta/tasks/tasks-manibot.md"
+
 ## Lessons Learned
 
 - Next.js 15 — `params` is now a Promise, must `await` it

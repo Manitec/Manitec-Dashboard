@@ -37,3 +37,7 @@ Core complete. Taking a break. Next feature: fully wire user-selectable avatars/
 - [ ] User profiles — bio, status message
 - [ ] Roles and permissions
 - [ ] Friends list / follow system
+
+## Tasks
+
+--8<-- "meta/tasks/tasks-banjoshire.md"
