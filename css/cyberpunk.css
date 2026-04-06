@@ -5,6 +5,8 @@
   --neon-purple: #bf00ff;
   --neon-pink: #ff00aa;
   --dark-bg: #0a0a0f;
+  --text-body: #e2e2e2;
+  --text-muted: #a0a0b0;
 }
 
 /* Force true-dark body + surfaces */
@@ -19,6 +21,20 @@
 
 .md-content__inner {
   background-color: #0a0a0f;
+}
+
+/* Body text — bright enough to read on #0a0a0f */
+.md-typeset {
+  color: var(--text-body);
+  --md-default-fg-color: var(--text-body);
+  --md-default-fg-color--light: var(--text-muted);
+}
+
+.md-typeset p,
+.md-typeset li,
+.md-typeset td,
+.md-typeset blockquote {
+  color: var(--text-body);
 }
 
 /* Subtle neon accent on headers */
@@ -54,20 +70,43 @@
   border-left: 3px solid var(--neon-purple);
 }
 
+/* Inline code */
+.md-typeset code {
+  color: var(--neon-cyan);
+  background: rgba(0,255,255,0.07);
+}
+
 /* Admonition neon borders */
 .md-typeset .admonition {
   border-left: 4px solid var(--neon-pink);
   background: rgba(255,0,170,0.05);
 }
 
-/* Table header glow */
+.md-typeset .admonition p {
+  color: var(--text-body);
+}
+
+/* Table */
 .md-typeset table thead th {
   background: rgba(0,255,255,0.08);
   color: var(--neon-cyan);
+}
+
+.md-typeset table tbody td {
+  color: var(--text-body);
 }
 
 /* Nav active item */
 .md-nav__link--active {
   color: var(--neon-pink) !important;
   font-weight: bold;
+}
+
+/* Nav + sidebar text */
+.md-nav__link {
+  color: var(--text-muted);
+}
+
+.md-nav__link:hover {
+  color: var(--neon-cyan);
 }
