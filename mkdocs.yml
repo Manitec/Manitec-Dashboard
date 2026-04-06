@@ -54,11 +54,11 @@ nav:
     - ManiBot: projects/manibot.md
     - HexBot: projects/hexbot.md
     - Banjoshire Chat: projects/banjoshire.md
-    - Chatbot: projects/chatbot.md
     - Joe's Faves: projects/joesfaves.md
     - Manitec Apps: projects/manitec-apps.md
     - Ebbinor: projects/ebbinor.md
     - Mailserver: projects/mailserver.md
+    - Tasks: projects/tasks.md
   - Philosophy:
     - Overview: philosophy/index.md
     - Counterthism: philosophy/counterthism.md
