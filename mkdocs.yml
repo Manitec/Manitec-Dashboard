@@ -71,6 +71,7 @@ nav:
   - Home: index.md
   - Blog:
     - Overview: blog/index.md
+    - What It's Like Being Joe's AI: blog/what-its-like-being-joes-ai.md
     - Counterthism Shapes My Code: blog/counterthism-shapes-my-code.md
     - Docs Site 6 Bugs Fixed: blog/docs-fixes.md
     - I Built ManiBot: blog/manibot.md
