@@ -16,17 +16,30 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.instant
+    - navigation.tracking
     - search.highlight
     - search.suggest
+    - search.share
     - content.code.copy
+    - content.tooltips
+    - toc.follow
 
 extra_css:
   - css/cyberpunk.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Manitec
+    - icon: fontawesome/solid/globe
+      link: https://manitec.pw
 
 plugins:
   - search
   - git-revision-date-localized:
       type: date
+      fallback_to_build_date: true
 
 markdown_extensions:
   - admonition
@@ -45,6 +58,9 @@ markdown_extensions:
         - docs
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - tables
   - attr_list
   - md_in_html
@@ -55,7 +71,9 @@ nav:
   - Home: index.md
   - Blog:
     - Overview: blog/index.md
+    - Counterthism Shapes My Code: blog/counterthism-shapes-my-code.md
     - Docs Site 6 Bugs Fixed: blog/docs-fixes.md
+    - I Built ManiBot: blog/manibot.md
   - Infrastructure:
     - Overview: infra/index.md
     - Tools & Services: infra/tools.md
@@ -80,3 +98,4 @@ nav:
   - Philosophy:
     - Overview: philosophy/index.md
     - Counterthism: philosophy/counterthism.md
+    - Counterthism & Code: philosophy/blog-counterthism-shapes-my-code.md

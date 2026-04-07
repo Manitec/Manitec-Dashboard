@@ -12,9 +12,10 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 
 ## Sections
 
-- [Infrastructure](infra/index.md)
-- [Projects](projects/index.md)
-- [Philosophy](philosophy/index.md)
+- 📝 [Blog](blog/index.md)
+- 🛠️ [Infrastructure](infra/index.md)
+- 🚀 [Projects](projects/index.md)
+- 🧠 [Philosophy](philosophy/index.md)
 
 </div>
 
@@ -24,24 +25,22 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 
 | Task | Status |
 |---|---|
-| `/my-projects/` page | ✅ Done — minor image tweaks may remain |
+| `/my-projects/` page | ✅ Done |
 | Counterthism docs | ✅ Pushed |
-| `mkdocs.yml` extensions | ✅ Done — snippets, git-date, palette fixed (Apr 6) |
+| `mkdocs.yml` cleanup + emoji ext | ✅ Done |
 | `docs/philosophy/index.md` | ✅ Fully fleshed out |
 | `docs/infra/index.md` | ✅ Upgraded |
 | `dashnex-system-summary.md` | ✅ Pushed |
 | `docs/projects/hexbot.md` | ✅ Created |
-| `docs/css/cyberpunk.css` | ✅ Live — dark bg + neon glow improved (Apr 6) |
-| All project screenshots | 🟡 Needs proper screenshots across docs |
-| HexBot/ManiBot URLs | 🟡 Audit needed — some doc pages may have stale URLs |
-| `joesfaves.com/my-projects` docs link | 🟡 Status unclear — verify in DashNex |
-| Manitec Control Hub | ✅ Scaffolded, pushed, deployed to Vercel |
-| Control Hub — Phase 4 | ✅ Done |
-| Control Hub — Phase 2 (Vercel API) | 🟢 Ready to build |
-| `manitec.pw` cyberpunk full treatment | ✅ Applied |
+| `docs/css/cyberpunk.css` | ✅ Live |
+| Blog — Counterthism post | ✅ Published Apr 6 |
+| Manitec Control Hub | ✅ Deployed to Vercel |
+| `manitec.pw` cyberpunk treatment | ✅ Applied |
+| Deploy workflow — pip caching | ✅ Added |
+| All project screenshots | 🟡 Needs proper screenshots |
+| HexBot/ManiBot URL audit | 🟡 Some pages may have stale URLs |
+| Control Hub — Phase 2 Vercel API | 🟢 Ready to build |
 | Firebase Admin SDK key | 🔴 Needs regen — update env vars |
-| Play Store publish status | ⏸️ Not currently needed |
-| Docs site image tweaks | 🟡 Site-wide image audit pending |
 
 </div>
 
@@ -50,4 +49,4 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 ---
 
 !!! tip "Last Updated"
-    April 6, 2026 — Session: Control Hub deployed, cyberpunk CSS improved, mkdocs fixes batch-committed, task status audited.
+    April 7, 2026 — Session: nav cleaned up, pip caching added to CI, Counterthism blog live, README overhauled.
