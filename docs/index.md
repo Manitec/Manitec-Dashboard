@@ -34,12 +34,14 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 | `docs/projects/hexbot.md` | ✅ Created |
 | `docs/css/cyberpunk.css` | ✅ Live |
 | Blog — Counterthism post | ✅ Published Apr 6 |
-| Manitec Control Hub | ✅ Deployed to Vercel |
+| Manitec Control Hub — Phase 1 | ✅ Static shell + uptime pinger |
+| Manitec Control Hub — Phase 2 | ✅ Vercel deploy status API |
+| Manitec Control Hub — Phase 3 | ✅ GitHub activity feed |
+| Manitec Control Hub — Phase 4 | ✅ Redeploy triggers, Firebase status, analytics |
 | `manitec.pw` cyberpunk treatment | ✅ Applied |
 | Deploy workflow — pip caching | ✅ Added |
 | All project screenshots | 🟡 Needs proper screenshots |
 | HexBot/ManiBot URL audit | 🟡 Some pages may have stale URLs |
-| Control Hub — Phase 2 Vercel API | 🟢 Ready to build |
 | Firebase Admin SDK key | 🔴 Needs regen — update env vars |
 
 </div>
@@ -49,4 +51,4 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 ---
 
 !!! tip "Last Updated"
-    April 7, 2026 — Session: nav cleaned up, pip caching added to CI, Counterthism blog live, README overhauled.
+    April 7, 2026 — Session: Control Hub all 4 phases confirmed complete. No open build tasks.
