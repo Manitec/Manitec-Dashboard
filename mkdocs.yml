@@ -74,6 +74,9 @@ nav:
     - Ebbinor: projects/ebbinor.md
     - Mailserver: projects/mailserver.md
     - Tasks: projects/tasks.md
+  - HexBot:
+    - Calendar ICS: hexbot/calendar-ics.md
+    - Action Panel: hexbot/action-panel.md
   - Philosophy:
     - Overview: philosophy/index.md
     - Counterthism: philosophy/counterthism.md
