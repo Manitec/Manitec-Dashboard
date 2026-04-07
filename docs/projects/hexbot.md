@@ -11,11 +11,24 @@ HexBot is Manitec's private AI-powered chat assistant — the empire's own conve
 ## Stack
 | Layer | Tech |
 |-------|------|
-| Frontend | TBD / DashNex page |
-| Backend | FastAPI on Render |
-| AI | TBD (OpenAI / local model) |
+| Frontend | Next.js (App Router) |
+| Backend | Next.js API Routes + Groq |
+| AI | Groq (LLaMA 3) |
 | Domain | [hex.manitec.pw](https://hex.manitec.pw) |
 | Repo | [Manitec/hexbot](https://github.com/Manitec/hexbot) (Private) |
+
+## Features
+
+| Feature | Status | Docs |
+|---|---|---|
+| AI chat (streaming) | 🟢 Live | — |
+| Project context selector | 🟢 Live | — |
+| Task creation from chat | 🟢 Live | — |
+| Calendar ICS export | 🟢 Live | [Calendar ICS](../hexbot/calendar-ics.md) |
+| Unified action panel | 🟢 Live | [Action Panel](../hexbot/action-panel.md) |
+| Google Calendar direct insert | ⚪ Planned | — |
+| Note/reminder persistence | ⚪ Planned | — |
+| Session persistence | ⚪ Planned | — |
 
 ## Goals
 - [ ] Public-facing chat interface at hex.manitec.pw
