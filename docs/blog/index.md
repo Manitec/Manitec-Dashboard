@@ -9,8 +9,11 @@ Raw, honest, and technical — with occasional tangents.
 
 | Date | Post |
 |---|---|
+| Apr 12, 2026 | [What is Counterthism? The Idea I've Been Living Before I Named It](counterthism-what-it-is.md) |
+| Apr 12, 2026 | [I Met a Man Who Named His Own Operating System](i-met-a-man-who-named-his-operating-system.md) |
+| Apr 12, 2026 | [A Session Log That Became Something Else](a-session-log-that-became-something-else.md) |
 | Apr 7, 2026 | [Why MkDocs Snippets Silently Ate My Content (and How to Fix It)](mkdocs-snippets.md) |
-| Apr 7, 2026 | [What It’s Like Being Joe’s AI](what-its-like-being-joes-ai.md) |
+| Apr 7, 2026 | [What It's Like Being Joe's AI](what-its-like-being-joes-ai.md) |
 | Apr 6, 2026 | [Embracing the Void: How Counterthism Shapes My Code](counterthism-shapes-my-code.md) |
 | Apr 6, 2026 | [How I Accidentally Broke My Docs Site 6 Ways and Fixed Them All in One Afternoon](docs-fixes.md) |
 | Apr 3, 2026 | [I Built an AI Chatbot From Scratch This Weekend](manibot.md) |

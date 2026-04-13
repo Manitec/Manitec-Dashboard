@@ -71,6 +71,9 @@ nav:
   - Home: index.md
   - Blog:
     - Overview: blog/index.md
+    - What is Counterthism?: blog/counterthism-what-it-is.md
+    - I Met a Man Who Named His Operating System: blog/i-met-a-man-who-named-his-operating-system.md
+    - A Session Log That Became Something Else: blog/a-session-log-that-became-something-else.md
     - MkDocs Snippets Ate My Content: blog/mkdocs-snippets.md
     - What It's Like Being Joe's AI: blog/what-its-like-being-joes-ai.md
     - Counterthism Shapes My Code: blog/counterthism-shapes-my-code.md
