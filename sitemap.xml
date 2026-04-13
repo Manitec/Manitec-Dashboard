@@ -2,114 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://info.manitec.pw/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/blog/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://info.manitec.pw/blog/a-session-log-that-became-something-else/</loc>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/blog/counterthism-shapes-my-code/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://info.manitec.pw/blog/counterthism-what-it-is/</loc>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/blog/docs-fixes/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://info.manitec.pw/blog/i-met-a-man-who-named-his-operating-system/</loc>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/blog/manibot/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/blog/mkdocs-snippets/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/blog/what-its-like-being-joes-ai/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/hexbot/action-panel/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/hexbot/calendar-ics/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/infra/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/infra/dashnex-page-build-checklist/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/infra/dashnex-system-summary/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/infra/genx-router/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/infra/oracle-cloud/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/infra/philosophy/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/infra/tools/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/philosophy/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/philosophy/blog-counterthism-shapes-my-code/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/philosophy/counterthism/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/banjoshire/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/ebbinor/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/hexbot/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/joesfaves/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/mailserver/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/manibot/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/manitec-apps/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
     <url>
          <loc>https://info.manitec.pw/projects/tasks/</loc>
-         <lastmod>2026-04-08</lastmod>
+         <lastmod>2026-04-13</lastmod>
     </url>
 </urlset>
