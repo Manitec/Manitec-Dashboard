@@ -99,6 +99,8 @@ nav:
     - Manitec Apps: projects/manitec-apps.md
     - Ebbinor: projects/ebbinor.md
     - Mailserver: projects/mailserver.md
+    - Control Hub: projects/control-hub.md
+    - Command Hub: projects/command-hub.md
     - Tasks: projects/tasks.md
   - Philosophy:
     - Overview: philosophy/index.md
