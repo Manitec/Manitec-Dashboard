@@ -32,6 +32,8 @@ PROJECT_SLUGS = [
     "manitec-apps",
     "ebbinor",
     "mailserver",
+    "control-hub",
+    "command-hub",
     "manitec-dashboard",
     "manitec-site",
 ]

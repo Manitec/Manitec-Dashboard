@@ -1,9 +1,9 @@
 # Tasks
 
-A live view of open tasks for each project, pulled from the private Manitec-Tasks repo via Command Hub.
+A live view of open tasks for each project, pulled from GitHub Issues via the task fragment generator.
 
 !!! info
-    This page is auto-updated whenever docs are deployed.
+    This page is auto-updated whenever docs are deployed. Tasks are sourced from `Manitec/Manitec-Tasks` issues labeled `project: <slug>`.
 
 ## HexBot
 
@@ -36,6 +36,14 @@ A live view of open tasks for each project, pulled from the private Manitec-Task
 ## Ebbinor
 
 --8<-- "meta/tasks/tasks-ebbinor.md"
+
+## Control Hub
+
+--8<-- "meta/tasks/tasks-control-hub.md"
+
+## Command Hub
+
+--8<-- "meta/tasks/tasks-command-hub.md"
 
 ## Manitec Dashboard
 
