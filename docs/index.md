@@ -26,14 +26,14 @@ Welcome to the Manitec Projects knowledge base — empire HQ for all things Joe 
 | Task | Status |
 |---|---|
 | `/my-projects/` page | ✅ Done |
-| Counterthism docs | ✅ Pushed |
+| Countertheism docs | ✅ Pushed |
 | `mkdocs.yml` cleanup + emoji ext | ✅ Done |
 | `docs/philosophy/index.md` | ✅ Fully fleshed out |
 | `docs/infra/index.md` | ✅ Upgraded |
 | `dashnex-system-summary.md` | ✅ Pushed |
 | `docs/projects/hexbot.md` | ✅ Created |
 | `docs/css/cyberpunk.css` | ✅ Live |
-| Blog — Counterthism post | ✅ Published Apr 6 |
+| Blog — Countertheism post | ✅ Published Apr 6 |
 | Manitec Control Hub — Phase 1 | ✅ Static shell + uptime pinger |
 | Manitec Control Hub — Phase 2 | ✅ Vercel deploy status API |
 | Manitec Control Hub — Phase 3 | ✅ GitHub activity feed |
