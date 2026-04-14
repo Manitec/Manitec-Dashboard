@@ -1388,10 +1388,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#status" class="md-nav__link">
+  <a href="#stack" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Status
+        Stack
       
     </span>
   </a>
@@ -1399,10 +1399,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-used" class="md-nav__link">
+  <a href="#status-active" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tools Used
+        Status: ✅ Active
       
     </span>
   </a>
@@ -1410,10 +1410,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
+  <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Links
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
       
     </span>
   </a>
@@ -1445,17 +1456,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Notes
-      
-    </span>
-  </a>
   
 </li>
       
@@ -1729,10 +1729,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#status" class="md-nav__link">
+  <a href="#stack" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Status
+        Stack
       
     </span>
   </a>
@@ -1740,10 +1740,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tools-used" class="md-nav__link">
+  <a href="#status-active" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tools Used
+        Status: ✅ Active
       
     </span>
   </a>
@@ -1751,10 +1751,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
+  <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Links
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
       
     </span>
   </a>
@@ -1789,17 +1800,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1821,43 +1821,32 @@
 
 
 <h1 id="mailserver">Mailserver<a class="headerlink" href="#mailserver" title="Permanent link">&para;</a></h1>
-<p>A custom Zoho Mail360 client built in Python.</p>
-<h2 id="status">Status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h2>
+<p><strong>What it is:</strong> A custom Zoho Mail360 client — a FastAPI backend + webmail
+frontend that wraps the Zoho Mail360 API and serves internal Manitec email
+through a custom interface.</p>
+<p><strong>Repo:</strong> <a href="https://github.com/Manitec/mailserver">Manitec/mailserver</a></p>
+<h2 id="stack">Stack<a class="headerlink" href="#stack" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Status:</strong> Active</li>
-<li><strong>Language:</strong> Python</li>
-<li><strong>Deployment:</strong> Render</li>
+<li><strong>Backend:</strong> FastAPI (Python)</li>
+<li><strong>Hosting:</strong> Render</li>
+<li><strong>Email provider:</strong> Zoho Mail360 API</li>
+<li><strong>DNS/CDN:</strong> Cloudflare</li>
+<li><strong>Domain:</strong> <code>mail.manitec.pw</code> (password protected, internal use)</li>
 </ul>
-<h2 id="tools-used">Tools Used<a class="headerlink" href="#tools-used" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../../infra/tools/">Render</a></td>
-<td>Hosts FastAPI backend</td>
-</tr>
-<tr>
-<td><a href="../../infra/tools/">Mail360</a></td>
-<td>Zoho email API</td>
-</tr>
-<tr>
-<td><a href="../../infra/tools/">mail.manitec.pw</a></td>
-<td>Custom webmail frontend</td>
-</tr>
-<tr>
-<td><a href="../../infra/tools/">Cloudflare</a></td>
-<td>DNS &amp; CDN</td>
-</tr>
-</tbody>
-</table>
-<h2 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h2>
+<h2 id="status-active">Status: ✅ Active<a class="headerlink" href="#status-active" title="Permanent link">&para;</a></h2>
+<p>Created March 2026. Powers internal Manitec email through a custom
+webmail interface rather than Zoho's native UI.</p>
+<h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
 <ul>
-<li>GitHub: <a href="https://github.com/Manitec/mailserver">Manitec/mailserver</a></li>
+<li>Custom webmail frontend served at a Manitec subdomain</li>
+<li>FastAPI backend wrapping Zoho Mail360 API</li>
+<li>Password-protected — internal access only</li>
+</ul>
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] Wire Mail360 client into Command Hub (<code>mail360_client.py</code> module exists, needs endpoint)</li>
+<li>[ ] Add send/reply support if not already implemented</li>
+<li>[ ] Document API key rotation process</li>
 </ul>
 <h2 id="tasks">Tasks<a class="headerlink" href="#tasks" title="Permanent link">&para;</a></h2>
 <!-- AUTO-GENERATED FILE: do not edit by hand.
@@ -1865,8 +1854,6 @@
 
 <h3 id="open-tasks-for-mailserver">Open tasks for <code>mailserver</code><a class="headerlink" href="#open-tasks-for-mailserver" title="Permanent link">&para;</a></h3>
 <p><em>No open tasks linked to this project.</em></p>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Created March 2026. Powers the custom webmail at mail.manitec.pw.</p>
 
 
 
@@ -1887,7 +1874,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 6, 2026 07:03:08 UTC">April 6, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2026 04:41:42 UTC">April 14, 2026</span>
   </span>
 
     
