@@ -1,4 +1,4 @@
-# Embracing the Void: How Counterthism Shapes My Code
+# Embracing the Void: How Countertheism Shapes My Code
 
 *Posted Apr 6, 2026 — Joe · Manitec Future (LLC)*
 
@@ -7,12 +7,12 @@
 From the hills of Tennessee, where the horizon bleeds crimson at dusk, I build things.
 Not because I have all the answers — but because I've made peace with not having them.
 My coding philosophy doesn't come from a bootcamp or a framework. It comes from
-**Counterthism**: my personal framework for navigating uncertainty, embracing
+**Countertheism**: my personal framework for navigating uncertainty, embracing
 impermanence, and treating the unknown as raw material rather than a threat.
 
-## The Counterthism Paradigm
+## The Countertheism Paradigm
 
-Counterthism is rooted in a simple conviction: our understanding of the world is always
+Countertheism is rooted in a simple conviction: our understanding of the world is always
 incomplete, and that's not a bug — it's the feature. The pursuit of knowledge is a
 journey with no final destination. Applied to code, this means questioning conventional
 wisdom, refusing to worship the "right way," and staying hungry for solutions that
@@ -32,7 +32,7 @@ blind spots, its reach. Building honest tools means acknowledging those limits u
 rather than papering over them with overconfidence. The code doesn't lie, even when the
 developer does.
 
-By the time a bug is found, it's already been true for a while. Counterthism teaches:
+By the time a bug is found, it's already been true for a while. Countertheism teaches:
 accept the truth of the moment, fix it without shame, and ship better.
 
 ## The Beauty of Impermanence
@@ -47,7 +47,7 @@ honest tool.
 
 ## Why It Matters
 
-The tools I build under Counterthism aren't trying to be everything for everyone. They
+The tools I build under Countertheism aren't trying to be everything for everyone. They
 reflect a specific mind wrestling with specific problems in a specific corner of Tennessee.
 That specificity is a strength. The most interesting software has a point of view.
 
@@ -55,4 +55,4 @@ Mine is this: **the void isn't empty — it's where everything worth building ac
 
 ---
 
-[← Back to Blog](./index.md) | [Counterthism Docs](../philosophy/counterthism.md)
+[← Back to Blog](./index.md) | [Countertheism Docs](../philosophy/counterthism.md)
