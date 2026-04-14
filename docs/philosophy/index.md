@@ -9,7 +9,7 @@ Welcome to the beating heart of Manitec Future (LLC). This is where Joe wrestles
 !!! quote "The Tinkerer's Creed"
     Own your stack. Own your data. Own your destiny.
 
-- **Countertheism**: Push back against "this" — the default path of wage-slavery, surveillance capitalism, and joyless optimization. Build *your* world instead.
+- **Countertheism**: Push back against “this” — the default path of wage-slavery, surveillance capitalism, and joyless optimization. Build *your* world instead.
 - **Tinkerer's Sovereignty**: From voxel realms like Ebbinor to self-hosted mail, independence is the ultimate flex.
 - **Cyberpunk Humanism**: Neon-drenched tools for real humans — playful, pervy, profound. No sterile minimalism here.
 - **Student of Life**: Psychology, religion, philosophy — all fuel for the empire engine.
