@@ -101,6 +101,7 @@ nav:
     - Mailserver: projects/mailserver.md
     - Control Hub: projects/control-hub.md
     - Command Hub: projects/command-hub.md
+    - Nyx: projects/nyx.md
     - Tasks: projects/tasks.md
   - Philosophy:
     - Overview: philosophy/index.md
